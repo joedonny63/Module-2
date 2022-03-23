@@ -1,0 +1,90 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 5px ;
+
+}
+body{
+  background: linear-gradient(firebrick, white) no-repeat;
+}
+.container-fluid, .row{
+  width: 100%;
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+
+
+}
+.row {
+  align-items:center ;
+}
+#ourmenu {
+  text-align: center;
+  margin-top: 150px;
+  font-size: 60px;
+}
+.item{
+  max-width: 300px;
+  float: left;
+  border: 3px solid black;
+  margin-right: 3px;
+  padding: 0px 10px 10px 0px;
+ 
+  height: 200px;
+  overflow: auto;
+  position: relative;
+
+}
+span{
+  float: right;
+  width: 88px;
+  border: 3px solid black;
+  font-weight: bold;
+  text-align: right;
+
+
+}
+#lable_chicken{
+  background: linear-gradient(yellow, white);
+}
+#lable_beef{
+  background: linear-gradient(red, white);
+}
+#lable_sushi{
+  background: linear-gradient(green, white);
+}
+p{
+  float: left;
+  margin-right:px;
+  padding-bottom: 0px;
+  line-height: 1;
+  font-weight: 100;
+
+
+}
+
+
+/* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 595px) {...}
+ 
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) {...}
+ 
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  #item1, #item2{
+    width: 50%;
+  }
+  #item3{
+    width: 100%;
+    
+  }
+}
+ 
+/* Big screen devices (992px and above) */
+@media only screen and (min-width: 992px) {
+  #item1, #item2, #item3{
+    width: 33%;
+  }
+
+}
