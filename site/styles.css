@@ -84,12 +84,13 @@ color: antiquewhite;
 }
 p{
   position: absolute;
-  top: 150px;
+  top: 50px;
   font-size: 16px;
-  font-weight:2px ;
+  font-weight:9px ;
   padding-right: 19px;
   margin-bottom: 10px;
   height: 200px;
+  font-family: cursive ,sans-serif;
 }
 
 
@@ -98,6 +99,7 @@ section {
   font-size: 50px;
   clear: left;
   margin-bottom: 50px;
+  padding-top: 100px;
 } 
 
 /********** Large devices only **********/
